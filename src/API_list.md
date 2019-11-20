@@ -48,7 +48,7 @@ get_product(self)
 ```python
 get_ticker(self, code)
 ```
-- 获取深度数据
+- ~~获取深度数据~~
 ```python
 get_depth(self, code)
 ```

@@ -44,9 +44,6 @@ if __name__ == '__main__':
     # query ticker
     # example = spot_instance.get_ticker('epra_eos')
 
-    # query depth
-    # example = spot_instance.get_depth('epra_eos')
-
     # query deal
     # example = spot_instance.get_deal('epra_eos', before='', after='', limit='')
 

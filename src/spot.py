@@ -53,8 +53,8 @@ class Spot(Client):
         return self._request_without_params(GET, SPOT_TICKER + str(code) + '/ticker')
 
     # query depth
-    def get_depth(self, code):
-        return self._request_without_params(GET, SPOT_DEPTH + str(code) + '/orderbook')
+    # def get_depth(self, code):
+    #     return self._request_without_params(GET, SPOT_DEPTH + str(code) + '/orderbook')
 
     # query deal
     def get_deal(self, code, before='', after='', limit=''):
