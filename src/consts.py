@@ -29,9 +29,9 @@ SPOT_BANCOR_ORDER = '/api/v1/spot/orders/add-bancor'
 
 # PUBLIC
 SPOT_PRODUCTS = '/public/api/v1/products'
-SPOT_TICKER = '/api/v1/spot/public/products/'
+# SPOT_TICKER = '/api/v1/spot/public/products/'
 # SPOT_DEPTH = '/api/v1/spot/public/products/'
-SPOT_DEAL = '/api/v1/spot/public/products/'
-SPOT_KLINE = '/api/v1/spot/public/products/'
+# SPOT_DEAL = '/api/v1/spot/public/products/'
+# SPOT_KLINE = '/api/v1/spot/public/products/'
 
 SERVER_TIMESTAMP = '/public/api/v1/time'

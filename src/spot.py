@@ -49,22 +49,22 @@ class Spot(Client):
         return self._request_without_params(GET, SPOT_PRODUCTS)
 
     # query ticker
-    def get_ticker(self, code):
-        return self._request_without_params(GET, SPOT_TICKER + str(code) + '/ticker')
+    # def get_ticker(self, code):
+    #     return self._request_without_params(GET, SPOT_TICKER + str(code) + '/ticker')
 
     # query depth
     # def get_depth(self, code):
     #     return self._request_without_params(GET, SPOT_DEPTH + str(code) + '/orderbook')
 
     # query deal
-    def get_deal(self, code, before='', after='', limit=''):
-        params = {'before': before, 'after': after, 'limit': limit}
-        return self._request_with_params(GET, SPOT_DEAL + str(code) + '/fills', params, cursor=True)
+    # def get_deal(self, code, before='', after='', limit=''):
+    #     params = {'before': before, 'after': after, 'limit': limit}
+    #     return self._request_with_params(GET, SPOT_DEAL + str(code) + '/fills', params, cursor=True)
 
     # query k-line
-    def get_kline(self, code, atype, start, end):
-        params = {'type': atype, 'start': start, 'end': end}
-        return self._request_with_params(GET, SPOT_KLINE + str(code) + '/candles', params)
+    # def get_kline(self, code, atype, start, end):
+    #     params = {'type': atype, 'start': start, 'end': end}
+    #     return self._request_with_params(GET, SPOT_KLINE + str(code) + '/candles', params)
 
     # query server-time
     def get_time(self):

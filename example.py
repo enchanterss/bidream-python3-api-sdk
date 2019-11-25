@@ -41,15 +41,6 @@ if __name__ == '__main__':
     # query product
     # example = spot_instance.get_product()
 
-    # query ticker
-    # example = spot_instance.get_ticker('epra_eos')
-
-    # query deal
-    # example = spot_instance.get_deal('epra_eos', before='', after='', limit='')
-
-    # query k-line
-    # example = spot_instance.get_kline('epra_eos', '1min', 1534132800000, 1534150800000)
-
     # query server-time
     # example = spot_instance.get_time()
 

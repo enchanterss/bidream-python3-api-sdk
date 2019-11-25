@@ -44,7 +44,7 @@ bancor_order(self, product_id, side, size, source=1)
 ```python
 get_product(self)
 ```
-- 获取Ticker信息
+- ~~获取Ticker信息~~
 ```python
 get_ticker(self, code)
 ```
@@ -52,11 +52,11 @@ get_ticker(self, code)
 ```python
 get_depth(self, code)
 ```
-- 获取成交数据
+- ~~获取成交数据~~
 ```python
 get_deal(self, code, before='', after='', limit='')
 ```
-- 获取K线数据
+- ~~获取K线数据~~
 ```python
 get_kline(self, code, start, end, atype)
 ```
